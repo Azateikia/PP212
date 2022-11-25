@@ -23,5 +23,7 @@ public class App {
 
         System.out.println(bean==bean1);
         System.out.println(bean2==bean3);
+        
+        applicationContext.close();
     }
 }
